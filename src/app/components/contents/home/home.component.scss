@@ -1,0 +1,9 @@
+@import "~src/sass/comboflex";
+
+p {
+  color: #000;
+}
+div {
+  @extend .combo-flex-box;
+  height: 100vh;
+}
