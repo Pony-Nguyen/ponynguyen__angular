@@ -1,5 +1,5 @@
 {
-  "name": "angular-seed",
+  "name": "angular-core-by-ponynguyen",
   "version": "0.0.0",
   "scripts": {
     "postinstall": "ngcc --properties es5 browser module main --first-only",

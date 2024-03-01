@@ -15,12 +15,5 @@ body {
 
   letter-spacing: 1px;
   color: var(--text-color);
-  background-color: var(--backgroud-color-left-sidebar);
-  background-image: linear-gradient(
-    125deg,
-    var(--backgroud-color-logo),
-    var(--backgroud-color),
-    var(--backgroud-color-left-sidebar),
-    var(--color-orange)
-  );
+
 }

@@ -4,6 +4,11 @@ import { AuthGuard } from './services/auth.guard';
 const routes: Routes = [
   {
     path: '',
+    redirectTo: 'home',
+    pathMatch: 'full',
+  },
+  {
+    path: '',
     loadChildren: () =>
       import('./pages/dashboard-layout/dashboard-layout.module').then(
         (m) => m.DashboardLayoutModule
